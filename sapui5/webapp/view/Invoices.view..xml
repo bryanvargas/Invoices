@@ -1,0 +1,8 @@
+<mvc:View controllerName="belerofonte.sapui5.controller.Invoices"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Button text="Say Hello" press="onShowHello"/>
+        <Input value="{/recipient/name}"></Input>
+    </Page> 
+</mvc:View>
