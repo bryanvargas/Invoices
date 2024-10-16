@@ -8,17 +8,7 @@ function (Controller, MessageToast, JSONModel) {
 
     return Controller.extend("belerofonte.sapui5.controller.App", {
         onInit: function () {
-            const oData = {
-                recipient: {
-                    name: "World"
-                }
-            };
-            const oModel = new JSONModel(oData);
-            this.getView().setModel(oModel);
-        },
 
-        onShowHello: function () {
-            MessageToast.show("Hello world");
         }
     });
 });

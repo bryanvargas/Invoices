@@ -72,10 +72,10 @@
       },
       "routes": [
         {
-          "name": "RouteApp",
-          "pattern": ":?query:",
+          "name": "Invoices",
+          "pattern": "",
           "target": [
-            "TargetApp"
+            "Invoices"
           ]
         }
       ],
@@ -86,6 +86,11 @@
           "clearControlAggregation": false,
           "viewId": "App",
           "viewName": "App"
+        },
+        "Invoices": {
+          "viewType": "XML",
+          "viewName": "Invoices",
+          "viewId": "Invoices"
         }
       }
     },
